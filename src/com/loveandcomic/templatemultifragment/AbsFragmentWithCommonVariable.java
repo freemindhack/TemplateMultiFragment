@@ -34,6 +34,7 @@ public abstract class AbsFragmentWithCommonVariable extends Fragment {
 	//持ち主のアクティビティのコンテキスト
 	protected Context  my_context;
 
+	//デバッグ用ロガー
 	protected Logger logger;
 
 

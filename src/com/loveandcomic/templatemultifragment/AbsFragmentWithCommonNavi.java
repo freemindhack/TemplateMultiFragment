@@ -13,7 +13,7 @@ import android.widget.ImageButton;
 
 /**
  * ページ下部共通ナビゲーション部分を持つフラグメントのための継承元クラス
- * このクラス自体は対応するフラグメントを保たないので抽象クラスとする
+ * このクラス自体は対応するフラグメントを持たないので抽象クラスとする
  *
  * @extends AbsFragmentWithCommonVariable 共通フィールドを作成する抽象メソッド（自作）
  */
@@ -153,7 +153,7 @@ public abstract class AbsFragmentWithCommonNavi extends AbsFragmentWithCommonVar
 		//◆ボタンの余白をゼロにする
 		//◆ボタンにイベントリスナーを設定する
 		for(String key : img_btns.keySet()){
-			//このループ内では「key」に「normal」「web_view」といったハッシュのキー文字列が格納されている
+			//このループ内では「key」に「home」「content01」といったハッシュのキー文字列が格納されている
 
 			//ビットマップを画面の大きさから算出したサイズにリサイズ
 			Bitmap resized_bitmap = Bitmap.createScaledBitmap(

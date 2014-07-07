@@ -174,7 +174,7 @@ public class FragmentMain extends AbsFragmentWithCommonVariable{
 		//◆ボタンの余白をゼロにする
 		//◆ボタンにイベントリスナーを設定する
 		for(String key : img_btns.keySet()){
-			//このループ内では「key」に「map」「guide」といったハッシュのキー文字列が格納されている
+			//このループ内では「key」に「content01」「content02」といったハッシュのキー文字列が格納されている
 
 			//ビットマップを画面の大きさから算出したサイズにリサイズ
 			Bitmap resized_bitmap = Bitmap.createScaledBitmap(
