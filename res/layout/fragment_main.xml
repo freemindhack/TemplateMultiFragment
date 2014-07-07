@@ -1,0 +1,43 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="3">
+
+    <!--colum = 横のマス目の数-->
+    <!--row   = 縦のマス目の数-->
+    <!--それぞれの数値は0から始まる-->
+
+    <ImageButton
+        android:id="@+id/button_content01"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_gravity="left|top"
+        android:text="content01" />
+
+    <ImageButton
+        android:id="@+id/button_content02"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:layout_gravity="left|top"
+        android:text="content02" />
+
+    <ImageButton
+        android:id="@+id/button_content03"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_gravity="left|top"
+        android:text="content03" />
+
+    <ImageButton
+        android:id="@+id/button_content04"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:layout_gravity="left|top"
+        android:text="content04" />
+
+
+</GridLayout>
+

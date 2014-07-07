@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_buttons_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageButton
+        android:id="@+id/menu_button_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME" />
+
+    <ImageButton
+        android:id="@+id/menu_button_content01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="content01" />
+
+    <ImageButton
+        android:id="@+id/menu_button_content02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="content02" />
+
+    <ImageButton
+        android:id="@+id/menu_button_content03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="content03" />
+
+    <ImageButton
+        android:id="@+id/menu_button_content04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="content04" />
+
+
+</LinearLayout>
+

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="jp.shizuoka.hamamatsu.MainActivity">
+
+    <item android:id="@+id/menu_info" android:title="@string/menu_info" android:showAsAction="ifRoom"  android:icon="@drawable/ic_menu_info"></item>
+    <item android:id="@+id/menu_help" android:title="@string/menu_help" android:showAsAction="ifRoom"  android:icon="@drawable/ic_menu_help"></item>
+    <item android:id="@+id/menu_home" android:title="@string/menu_home" android:showAsAction="always" android:icon="@drawable/ic_menu_home"></item>
+</menu>
+

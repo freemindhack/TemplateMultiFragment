@@ -1,0 +1,20 @@
+p{
+	margin:0 0 10px;
+	padding:0;
+	font-size:80%;
+}
+
+h1{
+	margin:0 0 20px;
+	padding:0 0 20px;
+	border-bottom:2px dashed silver;
+}
+h2{
+	margin:10px 0;
+	padding:10px 0;
+	border-top:1px dashed silver;
+	border-bottom:1px dashed silver;
+}
+
+#main_div{
+}
